@@ -16,7 +16,7 @@
 <% if (loop > 1) { %>
 <p> Il y a actuellement <% out.println(loop);%> Jedis dans la base</p>
 <% } else { %>
-<p> Il y a actuellement <% out.println(loop);%> Jedis dans la base</p>
+<p> Il y a actuellement <% out.println(loop);%> Jedi dans la base</p>
 <% } %>
 <ul>
     <% for (int i = 0; i < loop; i++) { %>
